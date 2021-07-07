@@ -1,0 +1,23 @@
+name: s2s-asp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - climpred
+  - xarray
+  - dask
+  - distributed
+  - dask-jobqueue
+  - ncar-jobqueue
+  - cftime
+  - matplotlib
+  - zarr
+  - nc-time-axis
+  - nb_conda_kernels
+  - jupyterlab
+  - ipywidgets
+  - pip
+  - pip:
+    - climetlab
+    - climetlab-s2s-ai-challenge
+
